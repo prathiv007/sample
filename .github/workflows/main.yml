@@ -13,7 +13,7 @@ jobs:
         with:
           flutter-version: '3.0.5'
       - run: flutter pub get
-      - run: dart analyze
+      - run: dart analyze --fatal-infos
         id: dart_analyze
 
 #      - run: flutter build apk --debug --split-per-abi
