@@ -1,8 +1,8 @@
 on: push
-name: Test, Build and Release apk
+name: code analysis
 jobs:
   build:
-    name: Build APK
+    name: code analysis
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
